@@ -1,77 +1,76 @@
 body {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-color: #3b4564;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b4564;
 }
 
 section {
-    text-align: center;
-    width: 35%;
-    height: auto;
+  text-align: center;
+  width: 35%;
+  height: auto;
 }
-.up{
-    display: flex;
-    justify-content: start;
+.up {
+  display: flex;
+  justify-content: start;
 }
-.up h3{
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-}
-.screen{
-    background-color: #191F31;
-    border-radius: 10px;
-    height: 90px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.screen p{
-    color: white;
-    font-size: 60px;
-    margin-right:10px;
-    font-weight: bold;
-}
-.buttons{
-    height: 425px;
-    background-color:#242D44;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 colonnes égales */
-    gap: 17px; /* Espace entre les éléments de la grille */
-  }
-  
-  .grid-item {
-    background-color: #E9E4DC;
-    padding: 12px 22px;
-    text-align: center;
-    border-radius: 15px;
-    font-size: 25px;
-    font-weight: bold;
-
-  }
-.DEL{
-    background-color: #647296;
-    color: white;
-}
-.Equal {
-  background-color: red; 
-  color: white; 
-  grid-column: span 2; 
+.up h3 {
+  color: white;
+  font-size: 30px;
   font-weight: bold;
 }
-.Reset{
-    background-color: #647296; 
-    color: white;
-    font-weight: bold;
-    grid-column: span 2
+.screen {
+  background-color: #191f31;
+  border-radius: 10px;
+  height: 90px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.screen p {
+  color: white;
+  font-size: 60px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.buttons {
+  height: 425px;
+  background-color: #242d44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 17px;
+}
+
+.grid-item {
+  background-color: #e9e4dc;
+  padding: 12px 22px;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.DEL {
+  background-color: #647296;
+  color: white;
+}
+.Equal {
+  background-color: red;
+  color: white;
+  grid-column: span 2;
+  font-weight: bold;
+}
+.Reset {
+  background-color: #647296;
+  color: white;
+  font-weight: bold;
+  grid-column: span 2;
 }
