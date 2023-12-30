@@ -65,14 +65,14 @@ button {
   font-weight: bold;
 }
 
-.Equal {
+.equal {
   background-color: red;
   color: white;
   grid-column: span 2;
   font-weight: bold;
 }
 
-.Reset {
+.reset {
   background-color: #647296;
   color: white;
   font-weight: bold;

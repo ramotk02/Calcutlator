@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <title>Celculator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
@@ -29,29 +30,29 @@
         <h3>Calculator</h3>
       </div>
       <div class="screen">
-        <p>21,00</p>
+        <p id="display">0</p>
       </div>
       <div class="buttons">
         <div class="buttons-container">
           <div class="grid-container">
-            <button class="sevenClick" onclick="sevenBt">7</button>
-            <button class="eightClik" onclick="eightBt">8</button>
-            <button class="nineClick" onclick="nineBt">9</button>
-            <button class="DelClick" onclick="delBt">DEL</button>
-            <button class="fourClick" onclick="fourBt">4</button>
-            <button class="fiveClick" onclick="fiveBt">5</button>
-            <button class="sixClick" onclick="sixBt">6</button>
-            <button class="plusClick" onclick="plusBt">+</button>
-            <button class="oneClick" onclick="oneBt">1</button>
-            <button class="twoClick" onclick="twoBt">2</button>
-            <button class="threeClick" onclick="threeBt">3</button>
-            <button class="minusClick" onclick="minusBt">-</button>
-            <button class="pointClick" onclick="pointBt">.</button>
-            <button class="zeroClick" onclick="zeroBt">0</button>
-            <button class="divisionClick" onclick="divisionBt">/</button>
-            <button class="multiplyClick" onclick="xBt">x</button>
-            <button class="Reset" onclick="resetBt">Reset</button>
-            <button class="Equal" onclick="equalBt">=</button>
+            <button class="sevenClick" onclick="appendToDisplay('7')">7</button>
+            <button class="eightClick" onclick="appendToDisplay('8')">8</button>
+            <button class="nineClick" onclick="appendToDisplay('9')">9</button>
+            <button class="delClick" onclick="deleteFromDisplay()">DEL</button>
+            <button class="fourClick" onclick="appendToDisplay('4')">4</button>
+            <button class="fiveClick" onclick="appendToDisplay('5')">5</button>
+            <button class="sixClick" onclick="appendToDisplay('6')">6</button>
+            <button class="plusClick" onclick="appendToDisplay('+')">+</button>
+            <button class="oneClick" onclick="appendToDisplay('1')">1</button>
+            <button class="twoClick" onclick="appendToDisplay('2')">2</button>
+            <button class="threeClick" onclick="appendToDisplay('3')">3</button>
+            <button class="minusClick" onclick="appendToDisplay('-')">-</button>
+            <button class="pointClick" onclick="appendToDisplay('.')">.</button>
+            <button class="zeroClick" onclick="appendToDisplay('0')">0</button>
+            <button class="divisionClick" onclick="appendToDisplay('/')">/</button>
+            <button class="multiplyClick" onclick="appendToDisplay('*')">x</button>
+            <button class="reset" onclick="resetDisplay()">Reset</button>
+            <button class="equal" onclick="calculate()">=</button>
           </div>
         </div>
       </div>
