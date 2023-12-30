@@ -11,30 +11,35 @@ section {
   width: 35%;
   height: auto;
 }
+
 .up {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
+
 .up h3 {
   color: white;
   font-size: 30px;
   font-weight: bold;
 }
+
 .screen {
   background-color: #191f31;
   border-radius: 10px;
   height: 90px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   margin-bottom: 20px;
 }
+
 .screen p {
   color: white;
   font-size: 60px;
   margin-right: 10px;
   font-weight: bold;
 }
+
 .buttons {
   height: 425px;
   background-color: #242d44;
@@ -44,13 +49,14 @@ section {
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 17px;
 }
 
-.grid-item {
+button {
   background-color: #e9e4dc;
   padding: 12px 22px;
   text-align: center;
@@ -58,16 +64,14 @@ section {
   font-size: 25px;
   font-weight: bold;
 }
-.DEL {
-  background-color: #647296;
-  color: white;
-}
+
 .Equal {
   background-color: red;
   color: white;
   grid-column: span 2;
   font-weight: bold;
 }
+
 .Reset {
   background-color: #647296;
   color: white;
