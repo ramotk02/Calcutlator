@@ -29,9 +29,7 @@
       <div class="up">
         <h3>Calculator</h3>
       </div>
-      <div class="screen">
-        <p id="display">0</p>
-      </div>
+      <input id="display" readonly />
       <div class="buttons">
         <div class="buttons-container">
           <div class="grid-container">
@@ -49,8 +47,12 @@
             <button class="minusClick" onclick="appendToDisplay('-')">-</button>
             <button class="pointClick" onclick="appendToDisplay('.')">.</button>
             <button class="zeroClick" onclick="appendToDisplay('0')">0</button>
-            <button class="divisionClick" onclick="appendToDisplay('/')">/</button>
-            <button class="multiplyClick" onclick="appendToDisplay('*')">x</button>
+            <button class="divisionClick" onclick="appendToDisplay('/')">
+              /
+            </button>
+            <button class="multiplyClick" onclick="appendToDisplay('*')">
+              x
+            </button>
             <button class="reset" onclick="resetDisplay()">Reset</button>
             <button class="equal" onclick="calculate()">=</button>
           </div>
