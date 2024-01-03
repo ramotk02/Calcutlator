@@ -11,19 +11,22 @@
         } catch (error) {
             display.value = "ERROR";
         }
-    
-        }
+    }
     function resetDisplay() {
         display.value = "";
     }
 
     function deleteFromDisplay() {
         var currentDisplayValue = display.value;
-    
-        if (currentDisplayValue.length > 0) {
+
+        if(display.value="ERROR") {
+            display.value="";
+        }
+        else if (currentDisplayValue.length > 0) {
         currentDisplayValue = currentDisplayValue.slice(0, -1);
         display.value = currentDisplayValue;
         }
+        
     }
     
 
