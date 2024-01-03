@@ -17,16 +17,12 @@
     }
 
     function deleteFromDisplay() {
-        var currentDisplayValue = display.value;
-
-        if(display.value="ERROR") {
-            display.value="";
-        }
-        else if (currentDisplayValue.length > 0) {
-        currentDisplayValue = currentDisplayValue.slice(0, -1);
-        display.value = currentDisplayValue;
-        }
-        
+       if(display.value === "ERROR") {
+        resetDisplay()
+       }
+       let result = display.value;
+       result = result.slice(0, -1);
+       display.value = result;
     }
     
 

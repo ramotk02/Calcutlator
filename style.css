@@ -13,7 +13,6 @@ section {
   background-color: #242d44;
   border-radius: 30px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-
 }
 
 .up {
@@ -23,8 +22,8 @@ section {
 
 .up h3 {
   color: white;
+  font-family: 'Orbitron', sans-serif; 
   font-size: 30px;
-  font-weight: bold;
   margin-left: 15px;
 }
 
@@ -41,7 +40,6 @@ section {
 
 .buttons {
   height: 425px;
-  background-color: #242d44;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,19 +54,19 @@ section {
 }
 
 button {
-  background-color: #647296;
+  background-color: #b5bfd9;
   padding: 12px 22px;
   text-align: center;
   border-radius: 15px;
   font-size: 20px;
-  font-weight: bold;
-}
+ }
 
 .equal {
   background-color: red;
   color: white;
   grid-column: span 2;
   font-weight: bold;
+
 }
 
 .reset {
