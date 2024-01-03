@@ -8,8 +8,12 @@ body {
 
 section {
   text-align: center;
-  width: 35%;
+  width: 30%;
   height: auto;
+  background-color: #242d44;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
 }
 
 .up {
@@ -21,17 +25,18 @@ section {
   color: white;
   font-size: 30px;
   font-weight: bold;
+  margin-left: 15px;
 }
 
 #display {
   background-color: #191f31;
   border-radius: 15px;
-  width: 100%;
+  width: 90%;
   height: 90px;
   margin-bottom: 20px;
   color: white;
   font-size: 50px;
-  text-align: right;
+  text-align: center;
 }
 
 .buttons {
@@ -51,11 +56,11 @@ section {
 }
 
 button {
-  background-color: #e9e4dc;
+  background-color: #647296;
   padding: 12px 22px;
   text-align: center;
   border-radius: 15px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 

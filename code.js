@@ -4,6 +4,7 @@
     function appendToDisplay(input) {
     display.value += input;
     }
+    
     function calculate() {
         try {
             display.value = eval(display.value);
@@ -12,8 +13,9 @@
         }
         }
     function resetDisplay() {
-    display.value = "";
+        display.value = "";
     }
+
     function deleteFromDisplay() {
         var currentDisplayValue = display.value;
     
