@@ -18,6 +18,7 @@ section {
 .up {
   display: flex;
   justify-content: flex-start;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .up h3 {
@@ -25,6 +26,7 @@ section {
   font-family: 'Orbitron', sans-serif; 
   font-size: 30px;
   margin-left: 15px;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 #display {
@@ -36,6 +38,7 @@ section {
   color: white;
   font-size: 50px;
   text-align: center;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .buttons {
@@ -59,6 +62,7 @@ button {
   text-align: center;
   border-radius: 15px;
   font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
  }
 
 .equal {
@@ -66,6 +70,7 @@ button {
   color: white;
   grid-column: span 2;
   font-weight: bold;
+  font-family: 'Rajdhani', sans-serif;
 
 }
 
@@ -74,4 +79,5 @@ button {
   color: white;
   font-weight: bold;
   grid-column: span 2;
+  font-family: 'Rajdhani', sans-serif;
 }
